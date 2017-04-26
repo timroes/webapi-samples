@@ -1,0 +1,21 @@
+* {
+	user-select: none;
+}
+body {
+	display: flex;
+	align-items: center;
+	padding-top: 3em;
+	flex-direction: column;
+}
+#colorpicker {
+	display: flex;
+	margin-top: 2em;
+	box-shadow: 0 0 6px #AAA;
+}
+#picker {
+	cursor: crosshair;
+}
+#slider {
+	width: 30px;
+	height: 200px
+}
