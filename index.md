@@ -1,5 +1,16 @@
 This project contains sample applications for several modern web APIs.
 
-* [Web Bluetooth API](bluetooth)
-* [Payment Request API](paymentrequest)
-* [Web USB API](usb)
+## [Web Bluetooth API](bluetooth)
+
+A sample connecting to a Cubot V2 fitness armwrist
+and showing its heart rate info
+
+## [Payment Request API](paymentrequest)
+
+A very very simple webstore, selling one item to
+show the Payment Request API.
+
+## [Web USB API](usb)
+
+A sample page connecting to a custom Arduino board
+implementing WebUSB.
