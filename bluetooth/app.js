@@ -8,7 +8,7 @@ if (!navigator.bluetooth) {
 			navigator.bluetooth.requestDevice({
 				filters: [
 					{
-						name: 'EST'
+						name: 'CUBOT V2'
 						// namePrefix: 'CUBOT'
 						// services: ['battery_service']
 					}
