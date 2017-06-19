@@ -37,7 +37,10 @@ document.querySelector('button').addEventListener('click', () => {
 			// This API doesn't take care of actual executing the payment, it just
 			// collects data for you.
 			setTimeout(() => {
-				document.querySelector('.details').innerHTML = JSON.stringify(response.details, null, 2);
+				const details = Object.assign({}, response.details);
+				details.billingAddress.phone = '---';
+				details.billingAddress.addressLine = [ 'Fakestreet', '42' ];
+				document.querySelector('.details').innerHTML = JSON.stringify(details, null, 2);
 				response.complete('success');
 			}, 2000);
 		})
