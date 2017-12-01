@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>ResizeObserver Example</title>
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+			html,body {
+				width: 100%;
+				height: 100%;
+				font-family: sans-serif;
+			}
+			body {
+				display: flex;
+				padding: 0.5em;
+				margin: 0;
+			}
+			div {
+				padding: 0.5em;
+				border-radius: 0.2em;
+				display: flex;
+				text-align: center;
+				font-size: 2rem;
+				font-weight: bold;
+				color: #333;
+			}
+			#container {
+				display: flex;
+				flex: 1;
+				height: 100%;
+				background-color: #FFF8E1;
+			}
+			#left-panel {
+				flex: 0 0 0;
+				min-width: 200px;
+				transition: min-width 0.4s ease;
+				background-color: #B2EBF2;
+			}
+			#right-panel {
+				margin-left: 0.5em;
+				flex: 5 1 auto;
+				background-color: #AED581;
+			}
+			#left-panel,
+			#right-panel {
+				align-items: center;
+				justify-content: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<div id="left-panel"></div>
+			<div id="right-panel"></div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>

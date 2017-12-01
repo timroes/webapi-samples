@@ -14,3 +14,7 @@ show the Payment Request API.
 
 A sample page connecting to a custom Arduino board
 implementing WebUSB.
+
+## [ResizeObserver](resizeobserver)
+
+A sample demonstrating the usage of ResizeObserver.
