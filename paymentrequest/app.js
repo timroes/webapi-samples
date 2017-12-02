@@ -1,13 +1,10 @@
 document.querySelector('button').addEventListener('click', () => {
 	const methodData = [
 		{
-			supportedMethods: [ 'basic-card' ],
+			supportedMethods: 'basic-card',
 			data: {
 				supportedNetworks: [ 'visa', 'mastercard' ]
 			}
-		},
-		{
-			supportedMethods: ['visa', 'mastercard']
 		}
 	];
 
