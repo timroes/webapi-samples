@@ -18,3 +18,7 @@ implementing WebUSB.
 ## [ResizeObserver](resizeobserver)
 
 A sample demonstrating the usage of ResizeObserver.
+
+## [WebVR](webvr)
+
+A simple 360° photo sphere using A-Frame and WebVR.
